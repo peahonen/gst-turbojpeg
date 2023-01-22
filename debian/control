@@ -1,0 +1,16 @@
+Source: gst-turbojpeg
+Section: unknown
+Priority: optional
+Maintainer: Petri Ahonen <peahonen@gmail.com>
+Build-Depends: debhelper-compat (= 13), meson (>=0.61), libgstreamer1.0-dev (>=1.20), libturbojpeg0-dev (>=2.1.2), cmake (>=3.22.1)
+Standards-Version: 4.6.0
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Browser: https://salsa.debian.org/debian/gst-turbojpeg
+#Vcs-Git: https://salsa.debian.org/debian/gst-turbojpeg.git
+Rules-Requires-Root: no
+
+Package: gst-turbojpeg
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
